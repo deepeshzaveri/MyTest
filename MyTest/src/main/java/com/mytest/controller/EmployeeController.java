@@ -122,7 +122,6 @@ public class EmployeeController {
 	    return false;
 	}
 	
-	
 	@RequestMapping(value = EmpRestURIConstants.CREATE_EMP, method = RequestMethod.POST)
 	public @ResponseBody Employee createEmployee(@RequestBody Employee emp) {
 		logger.info("Start createEmployee.");
